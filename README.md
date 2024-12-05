@@ -1,7 +1,7 @@
-# Toneo-bot
+Teneo-bot
 This script automates network or node operations for Teneo Bot.
 
-##Installation
+#Installation
 1. Clone the repository to your local machine:
  git clone https://github.com/recitativonika/teneo-bot.git
 2. Navigate to the project directory:
@@ -9,7 +9,7 @@ This script automates network or node operations for Teneo Bot.
 3. Install the necessary dependencies:
  npm install
 
-##SETUP AKUN :
+#SETUP AKUN :
 1. Set up dulu account.js, config.js dan proxy.txt sebelum kalian running script
 
 2. SETUP AKUN/account.js :
@@ -42,5 +42,5 @@ username:password@ip:port
 http://ip:port
 http://username:password@ip:port
 
-##Run the script:
+#Run the script:
 node index.js
