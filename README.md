@@ -1,4 +1,61 @@
-🤑🐚🐚🐚🐚🐚  🐚🐚🐚🤑
+🤑 TENEO-BOT 🤑
+💯 Installation & Clone the repository to your local machine:
+
+😴 INSTALL REPOSITORY:
+git clone https://github.com/SRCryptoBoyz/Teneo-bot
+
+ 
+teneo-bot cd
+
+npm install
+
+🕐 SETUP ACCOUNT
+➡️ Set up account.js, config.js and proxy.txt first before you run the script
+
+➡️ account.js : 
+🟡Change the account.js file to set your account parameters, 
+➡️ nano accounts.js
+🟣Later it will look like this: 👇
+module.exports = [
+  {
+    email: "account1@example.com",
+    password: "password1"
+  },
+  {
+    email: "account2@example.com",
+    password: "password2"
+  },
+  // Add more accounts as needed
+];
+📝 replace with your Teneo account Email and PW,
+
+➡️ PROXY CONFIGURATION: 
+🟡 change the config.js file if you want to use a proxy from false to true, if there is no proxy, just leave it as default: 
+➡️ nano config.js
+🟣Later it will look like this: 👇
+const useProxy = false; // (set true if want to use proxy, false if not)
+
+module.exports = {
+  useProxy
+};
+
+➡️ PROXY SETUP:
+🟡Put your proxy into the proxy.txt file 
+➡️ nano proxy.tx 
+🟣Later it will look like this: 👇
+ip:port
+username:password@ip:port 
+http://ip:port http://username:password@ip:port
+(You delete it and replace it with your proxy, to delete the file: CTRL + K)
+
+If you have finished all the setup, just run the script
+➡️ node index.js
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+ 
+🤑 TENEO-BOT 🤑
+🇲🇨 Indonesian
+
 
 💯 Installation & Clone the repository to your local machine:
 
