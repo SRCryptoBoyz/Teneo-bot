@@ -1,4 +1,4 @@
-Teneo-bot
+Teneo-bot MULTY AKUN
 This script automates network or node operations for Teneo Bot.
 
 #Installation
@@ -15,18 +15,25 @@ This script automates network or node operations for Teneo Bot.
 2. SETUP AKUN/account.js :
    Ubah file account.js untuk mengatur parameter akun kalian
    
-modul.ekspor = [
+GNU nano 8.2                  account.js
+module.exports = [
   {
-    email: "akun1@example.com",
-    kata sandi: "kata sandi1"
+    email: "isi dengan email/ your email",
+    password: "isi dengan password / your password"
   },
   {
-    email: "akun2@example.com",
-    kata sandi: "kata sandi2"
+    email: "email",
+    password: "password"
   },
-  // Tambahkan lebih banyak akun sesuai kebutuhan
+{
+    email: "email",
+    password: "password"
+  {
+    email: "email",
+    password: "password"
+  },
+  // tambahkan  akun lain jika ada / Add more accounts as needed
 ];
-
 3. KONFIGURASI PROXY : 
  ubah file config.js kalo mau pake proxy ke true , kalo gk ada proxy biarin aja default   ("false" menggunakan proxy)
 const useProxy = false; // (set true if want to use proxy, false if not)
