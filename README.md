@@ -3,7 +3,7 @@ This script automates network or node operations for Teneo Bot.
 
 #Installation
  Clone the repository to your local machine:
-- git clone https://github.com/SRCryptoBoyz/Toneo-bot
+- git clone https://github.com/SRCryptoBoyz/Teneo-bot
 - [Node.js](https://nodejs.org/) (version 12 or higher)
 
  Navigate to the project directory:
