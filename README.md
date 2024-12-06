@@ -1,6 +1,5 @@
 **🤑 TENEO-BOT 🤑**
->***Installation & Clone the repository to your local machine:***
-
+***Installation & Clone the repository to your local machine:***
 
 - ***😴 INSTALL REPOSITORY***
 
@@ -10,7 +9,7 @@
 
 >npm install
 
-
+>---------
 
 - **🕐SETUP ACCOUNT**
 
@@ -36,6 +35,7 @@ module.exports = [
 
 - replace with your Teneo account Email and PW,
 
+>---------
 
 - ***PROXY CONFIGURATION:***
 
@@ -53,6 +53,8 @@ useProxy
 
 };
 
+>---------
+
 - ***PROXY SETUP:***
 
 🟡Put your proxy into the proxy.txt file 
@@ -69,7 +71,9 @@ http://ip:port http://username:password@ip:port
 
 - (You delete it and replace it with your proxy, to delete the file: CTRL + K)
 
-If you have finished all the setup, just run the script
+>---------
+
+- ***If you have finished all the setup, just run the script***
 
 >node index.js
 
@@ -87,6 +91,8 @@ If you have finished all the setup, just run the script
 
 >npm install
 
+>---------
+>
 - ***SETUP AKUN***
 
 Set up dulu account.js, config.js dan proxy.txt sebelum kalian running script
@@ -109,6 +115,8 @@ module.exports = [
 
 ];
 
+>---------
+
 - >📝 ganti dengan Email dan PW akun Teneo kalian,
 
 - ***KONFIGURASI PROXY***
@@ -127,6 +135,8 @@ module.exports = {
 
 };
 
+>---------
+
 - ***SETUP PROXY***
 
 Masukan proxy kalian ke file proxy.txt 
@@ -142,6 +152,8 @@ username:password@ip:port
 http://ip:port http://username:password@ip:port
 
 - >( Kalian hapus dan ganti dengan proxy kalian, untuk hapus file nya : CTRL + K )
+
+>---------
 
 - **Kalo dah kelar setup semua, tinggal run script**
 
