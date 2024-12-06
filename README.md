@@ -1,7 +1,8 @@
 **🤑 TENEO-BOT 🤑**
 >***Installation & Clone the repository to your local machine:***
 
-***😴 INSTALL REPOSITORY***
+
+- ***😴 INSTALL REPOSITORY***
 
 >git clone https://github.com/SRCryptoBoyz/Teneo-bot
 
@@ -9,11 +10,13 @@
 
 >npm install
 
-**🕐SETUP ACCOUNT**
+
+
+- **🕐SETUP ACCOUNT**
 
 ***➡️ Set up account.js, config.js and proxy.txt first before you run the script***
 
->account.js : 
+- **account.js :** 
 
 ***🟡Change the account.js file to set your account parameters,***
 
@@ -31,10 +34,10 @@ module.exports = [
   
 ];
 
-replace with your Teneo account Email and PW,
+- replace with your Teneo account Email and PW,
 
 
- ***PROXY CONFIGURATION:***
+- ***PROXY CONFIGURATION:***
 
 🟡change the config.js file if you want to use a proxy from false to true, if there is no proxy, just leave it as default: 
 
@@ -50,7 +53,7 @@ useProxy
 
 };
 
-***➡️PROXY SETUP:***
+- ***PROXY SETUP:***
 
 🟡Put your proxy into the proxy.txt file 
 
@@ -64,7 +67,7 @@ username:password@ip:port
 
 http://ip:port http://username:password@ip:port
 
-(You delete it and replace it with your proxy, to delete the file: CTRL + K)
+- (You delete it and replace it with your proxy, to delete the file: CTRL + K)
 
 If you have finished all the setup, just run the script
 
@@ -76,7 +79,7 @@ If you have finished all the setup, just run the script
 
 ***Installation & Clone the repository to your local machine:***
 
-***INSTALL REPOSITORY ***
+- ***INSTALL REPOSITORY ***
 
 >git clone https://github.com/SRCryptoBoyz/Teneo-bot
  
@@ -84,11 +87,11 @@ If you have finished all the setup, just run the script
 
 >npm install
 
-***SETUP AKUN***
+- ***SETUP AKUN***
 
 Set up dulu account.js, config.js dan proxy.txt sebelum kalian running script
 
->account.js : 
+- >account.js : 
 
 🟡Ubah file account.js untuk mengatur parameter akun kalian, 
 
@@ -105,9 +108,10 @@ module.exports = [
   // Add more accounts as needed
 
 ];
->📝 ganti dengan Email dan PW akun Teneo kalian,
 
-***KONFIGURASI PROXY***
+- >📝 ganti dengan Email dan PW akun Teneo kalian,
+
+- ***KONFIGURASI PROXY***
 
 ***🟡 ubah file config.js kalo mau pake proxy dari false ke true , kalo gk ada proxy biarin aja default***
 
@@ -123,7 +127,7 @@ module.exports = {
 
 };
 
-***SETUP PROXY***
+- ***SETUP PROXY***
 
 Masukan proxy kalian ke file proxy.txt 
 
@@ -137,8 +141,8 @@ username:password@ip:port
 
 http://ip:port http://username:password@ip:port
 
->( Kalian hapus dan ganti dengan proxy kalian, untuk hapus file nya : CTRL + K )
+- >( Kalian hapus dan ganti dengan proxy kalian, untuk hapus file nya : CTRL + K )
 
-**Kalo dah kelar setup semua, tinggal run script**
+- **Kalo dah kelar setup semua, tinggal run script**
 
 >node index.js
