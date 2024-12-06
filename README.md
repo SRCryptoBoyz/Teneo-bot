@@ -1,12 +1,10 @@
-🤑 TENEO-BOT 🤑
-💯 Installation & Clone the repository to your local machine:
+**🤑 TENEO-BOT 🤑**
+>Installation & Clone the repository to your local machine:
 
-😴 INSTALL REPOSITORY:
-git clone https://github.com/SRCryptoBoyz/Teneo-bot
+*😴 INSTALL REPOSITORY*
 
- 
-teneo-bot cd
-
+>git clone https://github.com/SRCryptoBoyz/Teneo-bot
+cd teneo-bot
 npm install
 
 🕐 SETUP ACCOUNT
@@ -16,6 +14,7 @@ npm install
 🟡Change the account.js file to set your account parameters, 
 ➡️ nano accounts.js
 🟣Later it will look like this: 👇
+
 module.exports = [
   {
     email: "account1@example.com",
