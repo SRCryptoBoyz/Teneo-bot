@@ -15,7 +15,7 @@ Teneo bot is a simple tool designed to automate the node interaction.
    ```
 2. Navigate to the project directory:
    ```bash
-   cd teneo-bot
+   cd Teneo-bot
    ```
 4. Install the necessary dependencies:
    ```bash
